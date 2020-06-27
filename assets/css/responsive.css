@@ -1,0 +1,250 @@
+/* 481px and 768px */
+@media only screen 
+  and (min-width: 769px) 
+  and (max-width: 908px) {
+    .form-area button
+    {   
+        width: 23%;}
+    .navitemhover >a:hover{
+        padding-left: 15px !important;
+    }
+  }
+
+
+
+/* 481px and 768px */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Header-area Start */
+    .header-top{
+        display: none;
+    }
+    .logo{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .form-area{
+        display: none;
+    }
+    .navitemhover >a:hover{
+        padding-left: 15px !important;
+    }
+    /* carousel Start */
+    .carousel-itemImg{
+        height: 150px;
+            }
+    .prev-Color {
+        top: 65px;
+    }
+    /* Testimunial Slider Start */
+    .slider-bc {
+        margin: 0px 0 20px;
+    }
+    .slider-img {
+        width: 45%;
+    }
+    .slider-text p {
+        font-size: 21px;
+    }
+    /* Footer payment Start */
+    .payment {
+        padding: 25px 0;
+    }
+    .copy{
+        text-align: center;
+    }
+    .copy:last-child span{
+        float: none !important;
+    }
+
+    /* about-area Start */
+    .sidebar {
+        margin: 30px 0px 30px 0px;
+    }
+    .unilev-sidebar{
+        margin: 0px 0px 30px 0px;
+    }
+    .about-content, .Contact-content {
+        padding: 15px 25px 40px;
+    }
+     /* BannerIcon Start */
+    .BannerIcon-area {
+        padding: 20px 0;
+    }
+    .icon-menu ul {
+        float: none;
+        justify-content: center;
+    }
+    .icon-menu ul li {
+        font-size: 18px;
+    }
+  }
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px){
+      
+    /* Header-area Start */
+    .header-top{
+        display: none;
+    }
+    .logo{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .form-area{
+        display: none;
+    }
+    .mega-menu{
+        width: 100% !important;
+    }
+    .navitemhover >a:hover{
+        padding-left: 15px !important;
+    }
+    /* carousel Start */
+    .carousel-itemImg{
+        height: 200px;
+         }
+    .prev-Color {
+        top: 93px;
+    }
+    /* Product Start */
+    .prodect-heading{
+        text-align: center;
+    }
+
+    /* Testimunial Slider Start */
+    .slider-bc {
+        margin: 0px 0 20px;
+    }
+    .slider-img {
+        width: 45%;
+    }
+    .slider-text p {
+        font-size: 21px;
+    }
+    .copy{
+        text-align: center;
+        float: none !important;
+    }
+    .copy span:last-child{
+        float: none !important;
+    }
+    .icon-menu ul li {
+        font-size: 25px;
+    }
+    .icon-menu ul {
+        float: none;
+    }
+
+   /* item-area */
+    .shopping-cart-page{
+        text-align: center;
+    }
+    .cart-need-help {
+        float: none;
+    }
+
+    /* register-area */
+    .register-heading, .register-form-area{
+        text-align: center;
+    }
+    /* login-area */
+    .login-area{
+        text-align: center;
+    }
+    /* ForgotPassword-area */
+    .ForgotPassword-area{
+        text-align: center;
+    }
+    .icon-menu ul li {
+        margin: 0 11px 0px 0;
+    }
+
+    /* about-area Start */
+    .sidebar {
+        margin: 30px 0px 15px 0px;
+    }
+    .unilev-sidebar{
+        margin: 0px 0px 30px 0px;
+    }
+    .about-content, .Contact-content {
+        padding: 15px 25px 40px;
+    }
+     /* product-card Start */
+    .product-card-overview-bottom {
+        padding-top: 50px;
+    }
+    .product-content {
+        margin: 15px 0;
+    }
+    .product-details-heading h1 {
+        padding-top: 10px;
+    }
+    /* BannerIcon Start */
+    .BannerIcon-area {
+        padding: 20px 0;
+    }
+    .icon-menu ul {
+        float: none;
+        justify-content: center;
+    }
+    .icon-menu ul li {
+        font-size: 18px;
+    }
+    /* Footer payment Start */
+    .payment {
+        padding: 20px 0;
+    }
+
+
+    /* product-card-areaStart */
+    .zoomContainer{
+        display: none;
+    }
+    .zoomWrapper img{
+        position: relative !important;
+    }
+    .thumbImage {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+    .product-card-area {
+        padding: 50px 10px;
+    }
+    .product-social-buttons {
+        padding: 25px;
+    }
+    .product-cadr-delivery {
+        right: -10px;
+    }
+    .tab-content {
+        padding: 20px 30px;
+    }
+    .tab-item-list {
+        padding: 0 10px;
+    }
+    .RightSlider-area {
+        margin-top: 25px;
+    }
+
+/* Securitypolicy-area Start */
+
+    .securitypolicy-content, .Shippingreturns-content {
+        padding: 12px 0px 40px;
+    }
+/* shopping-cart-page Start */
+    .shopping-cart-page {
+        margin: 10px 0px 33px 0px;
+    }
+/* ullsleevedtees Start */
+
+    .fullsleevedtees-heading h1{
+        margin: 0px;
+    }
+}
